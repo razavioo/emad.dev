@@ -1,0 +1,99 @@
+#-------------------------------
+# General Site Settings
+
+title: Emad.dev
+logo: 
+author: razavioo
+description: Personal website of Seyyed Emad Razavi
+email: razavioo@email.com
+phone: +98 912 747 9731
+address: Qom, Qom, Iran
+copyright: Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+
+menu:
+- {name: About, link: '/about'}
+- {name: Blog, link: '/blog'}
+- {name: Contact, link: '/contact'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I’m <br> Emad Razavi <br> Android developer
+
+social:
+- {icon: "ti-instagram", link: "https://www.instagram.com/razavioo"}
+- {icon: "ti-twitter", link: "https://twitter.com/razavioo"}
+- {icon: "ti-github", link: "https://github.com/razavioo"}
+- {icon: "ti-stack-overflow", link: "https://stackoverflow.com/users/8040697/emi-raz"}
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  I am Emad, a senior Android developer. The more I grow in my specialty, the happier I become. Cognitive science books are my main interest and I am getting more and more familiar with the startup ecosystem.
+blurb-btn-link: '/about'
+blurb-btn-name: know more
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+- {name: Kotlin, color: '#B75EA4', value: '85%'}
+- {name: Java, color: '#5382A1', value: '90%'}
+- {name: Android Studio, color: '#78C257', value: '90%'}
+- {name: Kotlin Coroutines, color: '#1AA2D4', value: '75%'}
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+- {name: Android Developer, icon: 'icon-1.png', date: 'December 2017 - December 2018', organization: 'Seyagh software solutions'}
+- {name: Android Developer, icon: 'icon-2.png', date: 'May 2020 - August 2020', organization: 'Basalam'}
+- {name: Android lead, icon: 'icon-3.png', date: 'May 2019 - Present', organization: 'ParsianIT'}
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+- {name: Professional Scrum master, date: 'December 2018', organization: 'Faratar Az Danesh (Beyond Knowledge)'}
+- {name: IOS Mobile Programming, date: 'December 2018', organization: 'Faratar Az Danesh (Beyond Knowledge)'}
+- {name: Object oriented design and design patterns, date: 'February 2002', organization: 'Faratar Az Danesh (Beyond Knowledge)'}
+- {name: Android developer, date: 'August 2017', organization: 'Tehran Institute of Technology (MFT)'}
+- {name: Bachelor's degree in Mechanical Engineering, date: 'September 2009 - March 2014', organization: 'kashan university'}
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Mohammad Sohrabi"
+    image: "assets/images/testimonial/client-1.jpeg"
+    designation : "Android developer"
+    content : "Emad always tries to pay special attention to the correctness and depth of the concepts he learns and is eager to <strong> share his valuable knowledge with those around him </strong>."
+    
+
+contact-title: Contact Info
+contact-email: razavioo@gmail.com
