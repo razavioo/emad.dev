@@ -17,7 +17,7 @@ This is the repository of [Emad.Dev](http://www.emad.dev), my personal website. 
 4. (Optional) You can connect your domain to this github pages repository. I personally used [Cloudflare](http://cloudflare.com) to have a better control over my domain dns settings.
 
 # Jekyll
-[Jekyll](https://jekyllrb.com) is a greate library to create static site. I suggest you to watch this great youtube tutorial on [GiraffeAcademy](https://youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB).
+[Jekyll](https://jekyllrb.com) is a greate library to create static sites. I suggest you to watch this great youtube tutorial on [GiraffeAcademy](https://youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB) for more information.
 
 I also used and configured the theme [kross-jekyll](https://github.com/themefisher/kross-jekyll) which is suited for my personal website use-case.
 
