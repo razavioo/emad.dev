@@ -6,7 +6,7 @@ This is the repository for [Emad.dev](http://www.emad.dev), my personal website.
 2. Jekyll (a static site generator written in Ruby)
 3. HTML/CSS
 
-# Creation Steps
+# Setup
 
 1. To create a similar personal site, first go to your GitHub account and create a repository with your desired site name (e.g. "emad.dev"). For more information, check out [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
