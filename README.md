@@ -1,4 +1,4 @@
-# Description
+# Emad.dev
 
 This is the repository for [Emad.dev](http://www.emad.dev), my personal website. The following technologies were used for its deployment:
 
