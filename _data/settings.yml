@@ -1,12 +1,12 @@
 #-------------------------------
 # General Site Settings
 
-title: Emad.dev
+title: Seyyed Emad Razavi - Senior Mobile Developer | Tech Lead
 logo: 
-author: razavioo
-description: Personal website of Seyyed Emad Razavi
-email: razavioo@email.com
-phone: +98 912 747 9731
+author: Seyyed Emad Razavi
+description: Personal website of Seyyed Emad Razavi, Senior Mobile Developer and Tech Lead, specializing in Flutter, Kotlin, and Mobile Architecture.
+email: razavioo@gmail.com
+phone: +989127479731
 address: Qom, Qom, Iran
 copyright: Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
@@ -37,53 +37,100 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Emad Razavi <br> Android developer
+  hero-title: Hi! I’m <br> Seyyed Emad Razavi <br> Senior Mobile Developer | Tech Lead
 
 social:
-- {icon: "ti-instagram", link: "https://www.instagram.com/razavioo"}
-- {icon: "ti-twitter", link: "https://twitter.com/razavioo"}
 - {icon: "ti-github", link: "https://github.com/razavioo"}
-- {icon: "ti-stack-overflow", link: "https://stackoverflow.com/users/8040697/emi-raz"}
+- {icon: "ti-linkedin", link: "https://www.linkedin.com/in/razavioo/"}
 
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb:
-  I am Emad, a senior Android developer. The more I grow in my specialty, the happier I become. Cognitive science books are my main interest and I am getting more and more familiar with the startup ecosystem.
+blurb: >-
+  A senior mobile application developer and team leader with 7+ years of experience in Android (Kotlin, Java) and Flutter.
+  Proven ability to lead teams, architect scalable mobile solutions, and deliver high-quality applications.
+  Seeking a challenging position to leverage expertise in mobile development, leadership, and innovation.
 blurb-btn-link: '/about'
 blurb-btn-name: know more
 
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
+skills-title: Technical Skills
 skills:
-- {name: Kotlin, color: '#B75EA4', value: '85%'}
-- {name: Java, color: '#5382A1', value: '90%'}
-- {name: Android Studio, color: '#78C257', value: '90%'}
-- {name: Kotlin Coroutines, color: '#1AA2D4', value: '75%'}
+- {name: 'Android Development', value: '100%'}
+- {name: 'Flutter', value: '100%'}
+- {name: 'Kotlin', value: '100%'}
+- {name: 'Java', value: '100%'}
+- {name: 'Mobile Architecture (MVVM, MVI, Clean Architecture)', value: '100%'}
+- {name: 'CI/CD', value: '100%'}
+- {name: 'Git', value: '100%'}
+- {name: 'Agile (Scrum)', value: '100%'}
+- {name: 'Team Leadership', value: '100%'}
+- {name: 'Problem Solving', value: '100%'}
+- {name: 'Jetpack Compose', value: '100%'}
+- {name: 'Software Design Patterns', value: '100%'}
 
 #-------------------------------
 # Exprerience Section
 
-experience-title: Experience
+experience-title: Work Experience
 experience:
-- {name: Android Developer, icon: 'icon-1.png', date: 'December 2017 - December 2018', organization: 'Seyagh software solutions'}
-- {name: Android Developer, icon: 'icon-2.png', date: 'May 2020 - August 2020', organization: 'Basalam'}
-- {name: Android lead, icon: 'icon-3.png', date: 'May 2019 - Present', organization: 'ParsianIT'}
+  - name: "Team Lead & Mobile Architect"
+    date: "Jul. 2021 – Mar. 2024"
+    organization: "Partov Ertebat Saba"
+    company_url: "https://pesaba.com/en"
+    responsibilities:
+      - "Unified client-side JVM and Android projects (Galaxy and Kapela) into a Kotlin Multiplatform (KMP) initiative, sharing data models, networking, and business logic. This resulted in a 20% increase in development efficiency and an 80% reduction in critical bug reports due to code sharing, increased focus on tasks, leveraging Kotlin Coroutines, Clean Architecture, and data layer testing."
+      - "Established infrastructure (Package Registry using Maven Publish and Gitlab Package Registry, CI/CD pipelines using GitLab CI) and fostered a DevOps culture. A shell script was developed to automate [Specific Deployment Tasks], further increasing development speed. Established CI/CD pipelines using GitLab CI and a custom shell script integrated with Docker to automate deployment and apply device-specific configurations."
+      - "Optimized build processes, reducing compilation times from 15 minutes to under 5 minutes."
+      - "Transitioned from Retrofit to Ktor for networking, leveraging Ktor's multiplatform support to enable code sharing across JVM and Android. This resulted in a 40% reduction in development time for data-layer tasks by eliminating the need for duplicate framework-specific code. Migrated from Room to SQLDelight for a unified database solution across Android and JVM."
+      - "Mentored two junior developers, guiding them from beginner to intermediate level in software development and architecture, [Add outcome if possible]."
+      - "Successfully incorporated Jetpack Compose into the project (led by Mehdi Bahmanpour)."
+      - "Implemented 'Feature Flags' (led by Mehdi Bahmanpour) to control feature availability per flavor, improving flexibility for different business needs."
+      - "Migrated from Groovy to Kotlin (kts) for Gradle files."
+      - "Introduced Version Catalog for improved dependency management."
+      - "Utilized SLF4J as a logging abstraction, delegating to Log4j on the JVM side and Logback on the Android side for platform-specific logging."
+      - "Used Picocli to enhance the CLI user interface in the JVM project."
+    detailed_timeline:
+      - {date: "May 2019", event: "Joined the company. Initial projects were three Android apps with architectural issues and significant shared business logic. First step was using Build Variants, leading to initial instability but ultimately achieving moderate stability. Improved UI/UX and migrated from Volley to Retrofit. No DI, Java-only codebase, XML-based layouts, no tests, and some Java modules (e.g., 'common' for utilities)."}
+      - {date: "Feb 2020", event: "Transitioned to a Single Activity architecture using Fragments and Navigation Component. Separated Custom Views into a dedicated Android module, aiming for a design system (which was later achieved with Jetpack Compose)."}
+      - {date: "May 2020", event: "Introduced Kotlin. New files were primarily written in Kotlin, and existing Java files were gradually converted, encountering occasional bugs due to the lack of a proper architectural structure and tests."}
+      - {date: "Mar 2021", event: "A JVM version for Linux was requested. Mohammad Sohrabi joined the team, increasing the focus on architecture. The project adopted Clean Architecture + MVVM + DI. Significant code refactoring, class/module creation/deletion, and Java-to-Kotlin conversion accelerated. Introduced Kotlin Coroutines and Hilt Dependency Injection."}
+      - {date: "Aug 2021", event: "Started building the JVM project. Used Room (Android) and Exposed (JVM) for database access (later realizing SQLDelight was a better option). Used Hilt (Android) and Dagger (JVM) for DI. Used Ktor for server communication (as Retrofit wasn't multiplatform). Utilized Maven Publish and Gitlab Package Registry for shared modules. Created a Ktor-based module for all server interactions. Used SLF4J-based libraries for logging (Log4j for JVM, Logback for Android)."}
+      - {date: "Dec 2021", event: "Mehdi Bahmanpour joined the team, bringing design expertise. Significant domain changes. Improved Picocli usage for the JVM CLI. Enhanced database query writing with Exposed. Mehdi took initiative in Gradle improvements (debug/release version script, Groovy to Kotlin conversion)."}
+      - {date: "Jul 2022", event: "Project reached business stability, allowing more focus on technical tasks. Mehdi added the first Jetpack Compose code. Mohammad led business logic, Mehdi led UI, and Emad Razavi led the overall project and promoted the KMP vision."}
+      - {date: "Nov 2022", event: "Migrated to Version Catalog for easier dependency management."}
+      - {date: "Apr 2023", event: "Migrated from Room to SQLDelight (Android and JVM) for a unified database solution. Mohammad Sohrabi wrote tests for the data layer. Emad and Mohammad worked on .sq files and related code changes. Addressed differences between Dagger/Hilt and SQLDelight drivers."}
+      - {date: "Jun 2023", event: "Mehdi Bahmanpour led the 'Feature Flag' task (incorrectly named at the time). The goal was to identify shared features and control their availability per flavor through a configuration file, improving flexibility for different company needs. This involved separating features and creating appropriate implementations for various combinations. Features were transformed into Use Cases."}
+      - {date: "Jul 2023", event: "Added a fourth flavor to the Android project. A feature was split into two. The previous feature flag implementation made adding this flavor quick. Mohammad Sohrabi left the company. Mohsen Abedini joined, bringing attention to detail, documentation expertise, and knowledge of the latest Android developments."}
+      - {date: "Mar 2024", event: "Final step towards KMP. Initially, there were misconceptions about KSP and Build Flavor compatibility, and Hilt's usability in the Android module. Emad converted the JVM project from Dagger to Kotlin Inject. Mohsen Abedini worked on the Android side. This (unnecessary) conversion led to further code sharing in the DI part. Java/Kotlin and Android Library modules were moved to the JVM project. A 'shared' Kotlin Multiplatform module was created and added as a dependency to the JVM project. The Android project depended only on the 'common' part of the 'shared' module. The successful execution on both platforms confirmed the KMP setup."}
+  - name: 'Senior Android Developer & Team Lead'
+    date: 'May 2019 - Present'
+    organization: 'Parsian Information Technology Company'
+    responsibilities: ['Led Android development team, mentored junior developers, and oversaw project timelines.', 'Architected and developed new features for flagship mobile applications.', 'Improved app performance and user experience through code optimization and refactoring.', 'Managed CI/CD pipelines for automated testing and deployment.']
+  - name: 'Android Developer'
+    date: 'May 2020 - August 2020'
+    organization: 'Basalam'
+    company_url: 'https://basalam.com/'
+    responsibilities: ['Developed and maintained features for the Basalam e-commerce Android application.', 'Collaborated with cross-functional teams to deliver high-quality software.']
+  - name: 'Android Developer'
+    date: 'December 2017 - December 2018'
+    organization: 'Seyagh Software Solutions'
+    responsibilities: ['Contributed to the development of various Android applications for clients.', 'Worked on UI/UX implementation and backend integration.']
 
 #-------------------------------
 # Education Section
 
-education-title: Education
+education-title: Education & Certifications
 education:
-- {name: Professional Scrum master, date: 'December 2018', organization: 'Faratar Az Danesh (Beyond Knowledge)'}
-- {name: IOS Mobile Programming, date: 'December 2018', organization: 'Faratar Az Danesh (Beyond Knowledge)'}
-- {name: Object oriented design and design patterns, date: 'February 2002', organization: 'Faratar Az Danesh (Beyond Knowledge)'}
-- {name: Android developer, date: 'August 2017', organization: 'Tehran Institute of Technology (MFT)'}
-- {name: Bachelor's degree in Mechanical Engineering, date: 'September 2009 - March 2014', organization: 'kashan university'}
+- {name: 'B.Sc. in Mechanical Engineering', date: '2014', organization: 'University of Kashan'}
+- {name: 'Professional Scrum Master (PSM I)', date: '2018', organization: 'Scrum.org'}
+- {name: 'iOS Mobile Programming', date: '2018', organization: 'Faratar Az Danesh'}
+- {name: 'Object-Oriented Design & Design Patterns', date: '2017', organization: 'Faratar Az Danesh'}
+- {name: 'Android Developer', date: '2017', organization: 'Tehran Institute of Technology (MFT)'}
 
 #-------------------------------
 # Testimonials Section
@@ -100,3 +147,61 @@ contact-email: razavioo@gmail.com
 
 # For more info, see https://formspree.io
 contact-formspree-form-id: xlealezb
+
+#-------------------------------
+# Mentorship Section
+mentorship:
+  adplist_profile: "https://adplist.org/mentors/seyyed-emad-razavi"
+  statistics:
+    total_mentoring_time: "495 mins"
+    sessions_completed: 16
+    average_attendance: "100%"
+    karma_points: 53
+  impact_areas:
+    - "General mentorship"
+    - "Resume and portfolio review"
+    - "Design career path"
+
+#-------------------------------
+# Projects Section
+projects_section:
+  - name: "Taxiboard"
+    description: "Digital signage project for in-car taxi displays, utilizing technologies like location services (GPS, geofencing), socket.io, and ExoPlayer for streaming. Handled real-time playback and mid-stream ad insertion on low-resource devices (1GB RAM)."
+  - name: "Dooz (Morabaraba/Twelve Men's Morris)"
+    description: "Developed and open-sourced a game of Morabaraba using Basic4Android. Versions available on Google Play."
+    github: "https://github.com/razavioo/Dooz"
+  - name: "Ghasedak Samaneh (Internal Project - Parsian)"
+    description: "Contributed to the development of an internal super-app for Parsian, focusing on Android development, feature implementation, and architectural improvements."
+  - name: "Parsian Mobile Banking (Parsian Bank)"
+    description: "Key developer for Parsian Bank's mobile banking application, responsible for core features, security enhancements, and performance optimization."
+  - name: "Parsian Authenticator (Parsian Bank)"
+    description: "Developed a software token application for Parsian Bank, enhancing security for mobile banking users."
+  - name: "Personal Projects & Open Source Contributions"
+    description: "Various small projects, including Ktor server-side applications (dockerized and deployed) and a personal website (emad.dev) using Jekyll and GitHub Pages. See GitHub profile for more."
+    github: "https://github.com/razavioo"
+
+#-------------------------------
+# Architectural Contributions Section
+architectural_contributions:
+  - project: "Mardomanim (Ghasedak Samaneh)"
+    description: "Developed a novel, abstract gamification architecture, separating player and user concepts and integrating with a custom rule engine. This architecture treated all user actions (including messaging and logging) as potential rewards, simplifying the system and allowing for flexible configuration and future expansion."
+  - project: "Parsian Mobile Banking"
+    description: "Implemented a multi-module architecture based on Clean Architecture principles, improving code maintainability, scalability, and testability."
+  - project: "Internal Super-app (Parsian)"
+    description: "Designed and implemented a dynamic theming system, allowing for runtime customization of the application's appearance."
+
+#-------------------------------
+# Agile Experience Section
+agile_experience:
+  - project: "Various (Parsian IT, Basalam)"
+    description: "Extensive experience with Scrum methodologies, including sprint planning, daily stand-ups, sprint reviews, and retrospectives. Often took the lead in planning sessions and backlog grooming."
+  - project: "Team Leadership"
+    description: "Championed Agile practices within development teams, fostering collaboration, iterative development, and continuous improvement."
+
+#-------------------------------
+# Languages Spoken Section
+languages_spoken:
+  - language: "English"
+    proficiency: "Fluent"
+  - language: "Persian"
+    proficiency: "Native"
