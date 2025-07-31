@@ -1,34 +1,22 @@
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Site settings
+title: Seyyed Emad Razavi | Senior Mobile Developer
+email: razavioo@gmail.com
+description: >-
+  Senior Mobile Developer with 7+ years of experience specializing in Flutter, Kotlin, and KMP.
+  Proven ability to lead cross-functional teams and implement robust architectures.
+baseurl: ""
+url: "https://emad.dev"
+github_username:  razavioo
+linkedin_username: razavioo
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+theme: minima
 plugins:
-  - jekyll-sitemap
-compress_html:
-  clippings: all
-  comments: all
-  startings: [html, head, body]
+  - jekyll-feed
 
-# Pages Path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-
-include:
-  - _pages
-
-sass:
-  sass_dir: assets/scss
-  style: compressed
-
-# Exclude from processing.
+# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
-  - LICENSE.text
-  - README.md
-  - SECURITY.md
+  - setup.sh
