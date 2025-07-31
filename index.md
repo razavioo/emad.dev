@@ -56,6 +56,11 @@ layout: default
   </ul>
 </div>
 
+<div class="android-divider">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M19 8h-1V6h-2v2h-2v2h2v2h2V10h1V8zM5.88 18.12A7.965 7.965 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8a7.965 7.965 0 0 1-1.88 5.12L19 17.24V15h-2v4h4v-2h-2.12l.88-.88zM6.12 5.88A7.965 7.965 0 0 1 8 4c4.41 0 8 3.59 8 8a7.965 7.965 0 0 1-2.12 5.88L11 17.88V19h2v-4H9v2h2.12l-5-5z"/></svg>
+  <p>Happily building UIs in Kotlin, one <code>@Composable</code> at a time.</p>
+</div>
+
 ## Featured Projects
 
 <div class="highlight">

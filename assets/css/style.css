@@ -170,36 +170,6 @@ h3 {
   opacity: 0;
 }
 
-.site-footer {
-  text-align: center;
-  padding: 40px 20px;
-  margin-top: 40px;
-  color: var(--subtle-text);
-}
-
-.site-footer a {
-  color: var(--subtle-text);
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: color 0.2s ease-in-out;
-}
-
-.site-footer a:hover {
-  color: var(--text-color);
-}
-
-.site-footer .github-icon {
-  fill: var(--subtle-text);
-  transition: fill 0.2s ease-in-out;
-}
-
-.site-footer a:hover .github-icon {
-  fill: var(--text-color);
-}
-
-/* --- Responsive Design --- */
 @media (max-width: 768px) {
   .container {
     padding: 20px 15px;
@@ -228,4 +198,37 @@ h3 {
     width: 80%;
     text-align: center;
   }
+}
+
+.android-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0;
+  gap: 15px;
+  text-align: center;
+  animation: fadeIn 0.8s ease-out 0.5s forwards;
+  opacity: 0;
+}
+
+.android-divider svg {
+  fill: var(--primary-color);
+  opacity: 0.8;
+}
+
+.android-divider p {
+  font-style: italic;
+  color: var(--subtle-text);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.android-divider code {
+  font-style: normal;
+  background-color: #e5e7eb;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: var(--primary-color);
 }
