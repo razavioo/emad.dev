@@ -1,45 +1,38 @@
-# Description
+# Emad.Dev - Personal Portfolio
 
-This is the repository for [Emad.Dev](http://www.emad.dev), my personal website. It is built using the following technologies:
+This is the repository for my personal portfolio website, [emad.dev](https://emad.dev). It's designed to be a clean, fast, and effective single-page showcase of my skills and experience as a Senior Mobile Developer.
 
-1. GitHub Pages - a service that allows you to create free, open-source websites
-2. Jekyll - a static site generator written in Ruby
-3. HTML/CSS
+## Tech Stack
 
-# Setting up the repository
+This site is intentionally kept simple and robust, built with:
 
-To set up a similar personal website, follow these steps:
+- **GitHub Pages:** For free, fast, and reliable hosting.
+- **Jekyll:** As the underlying static site generator.
+- **HTML & CSS:** For direct and precise control over the content and styling. No complex themes or frameworks are used.
 
-1. Go to your GitHub account and create a repository with your desired site name (e.g. "emad.dev"). For more information, see [Creating a GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+## How It's Built
 
-2. Clone this project and update the files to reflect your personal information. You may need to modify `_data/settings.yml` and some resource files located in the `assets` directory.
+The entire portfolio is a single-page application. All content is managed within `index.md`, and all styling is controlled by `assets/css/style.css`. This minimalist approach ensures fast load times and easy maintenance.
 
-3. Push the project to your own repository. You can view your website at http://**{your_username}**.github.io/{**your_repo_name**} (e.g. [razavioo.github.io/emad.dev](http://razavioo.github.io/emad.dev)).
+### Key Files for Customization:
 
-4. (Optional) Connect your domain to this GitHub Pages repository by using a service like [Cloudflare](http://cloudflare.com) to manage your DNS settings.
+- `index.md`: Contains all the text content of the site, from the introduction to career highlights and projects.
+- `assets/css/style.css`: Holds all the styling rules, including colors, fonts, layout, and animations.
+- `_config.yml`: The main Jekyll configuration file for site-wide variables like title, description, and social links.
+- `assets/images/profile.jpg`: My profile picture.
+- `assets/files/Seyyed-Emad-Razavi-Resume.pdf`: My downloadable resume.
 
-# Jekyll
+## Setting Up Your Own Version
 
-[Jekyll](https://jekyllrb.com) is an excellent tool for creating static websites. I recommend watching the [Giraffe Academy's YouTube tutorial series](https://youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB) for more information.
+If you'd like to use this as a template for your own portfolio:
 
-I used and configured the [kross-jekyll](https://github.com/themefisher/kross-jekyll) theme, which was well-suited for my personal website's needs.
+1.  **Fork this repository.**
+2.  **Update `_config.yml`** with your personal information (name, email, GitHub username, etc.).
+3.  **Modify `index.md`** to reflect your own skills, experience, and projects.
+4.  **Replace the files** in the `assets/` directory with your own profile picture and resume PDF.
+5.  **Customize the look and feel** by editing `assets/css/style.css`.
+6.  **Enable GitHub Pages** in your repository settings. If you name your repository `{your-username}.github.io`, your site will be live at that URL.
 
-# Contribution
-
-To contribute to this project:
-
-1. Fork this repository
-2. Create a new branch for your changes (e.g. `feature/new-feature`)
-3. Make your changes and commit them to your branch
-4. Push your branch to your fork
-5. Create a pull request from your branch to this repository
-
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-# Credits
-
-- [GitHub Pages](https://pages.github.com)
-- [Jekyll](https://jekyllrb.com)
-- [kross-jekyll](https://github.com/themefisher/kross-jekyll)
