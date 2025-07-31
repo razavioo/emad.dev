@@ -57,9 +57,7 @@ layout: default
 </div>
 
 <div class="android-divider">
-  <svg class="android-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
-    <path d="M18.5,8.4c0-2.1-1.7-3.8-3.8-3.8c-0.7,0-1.4,0.2-2,0.5C12.1,3.5,10.2,2.2,8,2.2C5.3,2.2,3.2,4.3,3.2,7c0,0.7,0.2,1.4,0.5,2c-1.7,0.6-3,2.3-3,4.3c0,2.5,2,4.5,4.5,4.5h1.3v-3.5h-1.3c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5h1.3V8.8H3.2c0-1.1,0.9-2,2-2c1.1,0,2,0.9,2,2v7.5h1.5V8.8h1.5v7.5h1.5V8.8h1.5v7.5h1.5V8.8h1.5v2.2h1.3c0.8,0,1.5,0.7,1.5,1.5s-0.7,1.5-1.5,1.5h-1.3v3.5h1.3c2.5,0,4.5-2,4.5-4.5C21.5,10.7,20.2,9,18.5,8.4z M7.2,7.8c0-0.6-0.4-1-1-1s-1,0.4-1,1s0.4,1,1,1S7.2,8.3,7.2,7.8z M17.8,7.8c0-0.6-0.4-1-1-1s-1,0.4-1,1s0.4,1,1,1S17.8,8.3,17.8,7.8z"/>
-  </svg>
+  <svg class="android-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px"><path fill="#30dc80" d="M24,14.088C11.427,14.088,1.108,23.716,0,36h48C46.892,23.716,36.573,14.088,24,14.088z M33.179,27.079c0-1.104,0.895-1.999,1.999-1.999c1.104,0,1.999,0.895,1.999,1.999c0,1.104-0.895,1.999-1.999,1.99 C34.074,29.078,33.179,28.183,33.179,27.079z M12.822,29.078c-1.104,0-1.999-0.895-1.999-1.999c0-1.104,0.895-1.999,1.999-1.999	s1.999,0.895,1.999,1.999C14.821,28.183,13.926,29.078,12.822,29.078z"/><path fill="#30dc80" d="M34.038,19.313c-0.14,0-0.281-0.035-0.41-0.11c-0.393-0.227-0.527-0.729-0.301-1.122l5.197-9.008	c0.227-0.394,0.729-0.529,1.122-0.301c0.393,0.227,0.527,0.729,0.301,1.122l-5.197,9.008C34.598,19.166,34.322,19.313,34.038,19.313	z"/><path fill="#30dc80" d="M13.962,19.313c-0.284,0-0.56-0.148-0.712-0.411L8.054,9.894C7.827,9.501,7.962,8.999,8.354,8.772	c0.392-0.228,0.895-0.093,1.122,0.301l5.197,9.008c0.227,0.394,0.092,0.896-0.301,1.122C14.243,19.278,14.102,19.313,13.962,19.313z"/></svg>
   <p>Happily building UIs in Kotlin, one <code>@Composable</code> at a time.</p>
 </div>
 
@@ -67,7 +65,7 @@ layout: default
 
 <div class="highlight">
   <h3>Dooz (Morabaraba Game)</h3>
-  <p>An open-source implementation of the classic Morabaraba board game. The core logic has been reused in over 20 other applications, with derivative versions achieving <strong>50,000+ downloads</strong> on Google Play. <a href="https://github.com/razavioo/Dooz" target="_blank">View on GitHub →</a></p>
+  <p>An open-source implementation of the classic Morabaraba board game. The core logic has been reused in over 20 other applications, with derivative versions achieving <strong>50,000+ downloads</strong> on Google Play.</p>
 </div>
 
 <div class="highlight">
