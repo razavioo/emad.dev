@@ -60,19 +60,20 @@ layout: default
 
 <div class="highlight">
   <h3>Dooz (Morabaraba Game)</h3>
-  <p>An open-source implementation of the classic Morabaraba board game. The core logic has been reused in over 20 other applications, with derivative versions achieving <strong>50,000+ downloads</strong> on Google Play. <a href="https://github.com/razavioo/Dooz" target="_blank">View on GitHub &rarr;</a></p>
+  <p>An open-source implementation of the classic Morabaraba board game. The core logic has been reused in over 20 other applications, with derivative versions achieving <strong>50,000+ downloads</strong> on Google Play. <a href="https://github.com/razavioo/Dooz" target="_blank">View on GitHub →</a></p>
 </div>
 
 <div class="highlight">
   <h3>Personal Website (emad.dev)</h3>
-  <p>This website itself is a personal project, built with <strong>Jekyll</strong> and hosted on <strong>GitHub Pages</strong>. It's designed to be a clean, fast, and effective single-page portfolio. <a href="https://github.com/razavioo/emad.dev" target="_blank">View Source &rarr;</a></p>
+  <p>This website itself is a personal project, built with <strong>Jekyll</strong> and hosted on <strong>GitHub Pages</strong>. It's designed to be a clean, fast, and effective single-page portfolio. <a href="https://github.com/razavioo/emad.dev" target="_blank">View Source →</a></p>
 </div>
 
 ## Certifications
+
 <p class="cert-list">
-  Microsoft Azure DevOps (2021) &bull;
-  Professional SCRUM Master (2018) &bull;
-  Object Oriented Design & Design Patterns (2018) &bull;
-  IOS Mobile Programming (2018) &bull;
+  Microsoft Azure DevOps (2021) •
+  Professional SCRUM Master (2018) •
+  Object Oriented Design & Design Patterns (2018) •
+  IOS Mobile Programming (2018) •
   Java and Android Development (2017)
 </p>
