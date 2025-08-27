@@ -12,8 +12,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+<button id="theme-toggle" class="theme-toggle" title="Toggle theme">
+    <!-- Icon will be handled by CSS or script -->
+</button>
 <main class="container">
     {{ content }}
 </main>
+<script>
+  (function() {
+    const themeToggle = document.querySelector('#theme-toggle');
+    if (!themeToggle) {
+      return;
+    }
+
+    const docElement = document.documentElement;
+    const storageKey = 'theme-preference';
+    const sunIcon = `☀️`;
+    const moonIcon = `🌙`;
+
+    const getThemePreference = () => {
+      const storedPreference = localStorage.getItem(storageKey);
+      if (storedPreference) {
+        return storedPreference;
+      }
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    };
+
+    let currentTheme = getThemePreference();
+    docElement.setAttribute('data-theme', currentTheme);
+    themeToggle.textContent = currentTheme === 'dark' ? sunIcon : moonIcon;
+
+
+    themeToggle.addEventListener('click', () => {
+      currentTheme = docElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      docElement.setAttribute('data-theme', currentTheme);
+      localStorage.setItem(storageKey, currentTheme);
+      themeToggle.textContent = currentTheme === 'dark' ? sunIcon : moonIcon;
+    });
+  })();
+</script>
 </body>
 </html>

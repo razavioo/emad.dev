@@ -246,3 +246,63 @@ h3 {
   font-size: 0.9rem;
   color: var(--primary-color);
 }
+
+/*
+ * Dark Theme
+ * -------------------------------------------------- */
+[data-theme="dark"] {
+  --bg-color: #111827;
+  --text-color: #f9fafb;
+  --border-color: #374151;
+  --card-bg: #1f2937;
+  --subtle-text: #9ca3af;
+  --shadow-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] body {
+  background: linear-gradient(-45deg, #111827, #1e1b4b, #111827, #1e293b);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+[data-theme="dark"] .android-divider code {
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+[data-theme="dark"] .btn {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .btn-primary {
+    color: var(--primary-text);
+}
+
+/*
+ * Theme Toggle Button
+ * -------------------------------------------------- */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 999;
+  font-size: 0.8rem;
+  font-weight: 600;
+  box-shadow: 0 4px 15px var(--shadow-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  box-shadow: 0 8px 25px rgba(255,255,255,0.08);
+}
